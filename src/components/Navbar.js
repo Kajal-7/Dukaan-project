@@ -7,10 +7,10 @@ import questionMark from "../assets/questionMark.svg"
 const Navbar = () => {
   return (
     <div
-      className={`flex md:flex-row flex-col-reverse mb-[35px]`}
+      className={`flex md:flex-row flex-col-reverse mb-[35px] pt-[10px] mr-4`}
     >
         <div className='w-1/3 flex flex-row items-center'>
-            <div className='flex flex-row mr-3 text-[#1A181E]'>Payments</div>
+            <div className='flex flex-row mr-3 text-[#1A181E] font-semibold'>Payments</div>
             <div className='flex flex-row'>
             <img
               src={questionMark}
