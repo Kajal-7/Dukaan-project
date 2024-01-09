@@ -12,7 +12,7 @@ const Content = () => {
   return (
     <div className='flex justify-center flex-col px-5 py-5 bg-[#FAFAFA] mb-2'>
       <div className='flex flex-row justify-between'>
-      <div className='flex mb-6 text-[26px] font-bold'>Overview</div>
+      <div className='flex mb-6 text-[26px] font-semibold'>Overview</div>
       <Button styles="flex flex-row justify-between items-center mr-3 h-[50px]">
         <div className='w-[90px] flex grow'>Last Month</div>
         <img
@@ -26,6 +26,7 @@ const Content = () => {
       <CountCard className="bg-white" title="Online Orders" count="231"/>
       <CountCard className="bg-white"  title="Amount Received" count="₹23,92,312.19"/>
       </div>
+      <div className='flex mb-6 text-[26px] font-semibold'>Transactions | This Month</div>
       <div className='flex flex-row justify-between mb-2' >
       <div className='w-1/3 lg:flex-1 flex flex-row max-w-[458px] py-2 pr-2 h-[52px] bg-[#F2F2F2]  w-1/3'>
         <div className='w-[72px] h-full flex justify-center items-center cursor-pointer'>

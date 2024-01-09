@@ -24,11 +24,11 @@ const Sidebar = () => {
               <img
                 src={nishan}
                 alt='nishan'
-                className='object-contain'
+                className=''
               />
               <div className='flex flex-col pl-3'>
                 <p className='text-white font-semibold'>Nishan</p> 
-                <a href='/' style={{borderBottom: "1px solid white"}}className='text-white text-[12px] pointer'>Visit Store</a>
+                <a href='/' style={{borderBottom: "1px solid gray"}}className='text-gray-400 text-[12px] pointer'>Visit Store</a>
               </div>
             </div>
             <img

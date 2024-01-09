@@ -29,7 +29,7 @@ const Pagination = () => {
       >    10
       </a>
       <a
-        className="relative block rounded bg-[#146EB4] px-3 py-1.5 text-sm text-white font-medium text-neutral-600 transition-all duration-300 hover:bg-neutral-100 "
+        className="relative block rounded bg-[#146EB4] px-3 py-1.5 text-sm text-white font-medium text-neutral-600 transition-all duration-300"
         href="/"
       >    11
       </a>

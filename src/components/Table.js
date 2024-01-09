@@ -23,7 +23,7 @@ function Table() {
                 <tbody>
                     {Array.from({ length: 10 }, (_, index) => (
                         <tr className="bg-white border-b ">
-                            <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
+                            <th scope="row" class="px-6 py-4 font-medium text-[#146EB4] whitespace-nowrap ">
                                 #281209
                             </th>
                             <td className="px-6 py-4">
