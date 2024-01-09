@@ -10,10 +10,10 @@ import download from "../assets/download.svg"
 
 const Content = () => {
   return (
-    <div className='flex justify-center flex-col px-5 py-5 bg-[#FAFAFA]'>
+    <div className='flex justify-center flex-col px-5 py-5 bg-[#FAFAFA] mb-2'>
       <div className='flex flex-row justify-between'>
       <div className='flex mb-6 text-[26px] font-bold'>Overview</div>
-      <Button styles="flex flex-row justify-between items-center mr-3">
+      <Button styles="flex flex-row justify-between items-center mr-3 h-[50px]">
         <div className='w-[90px] flex grow'>Last Month</div>
         <img
             src={blackarrow}
