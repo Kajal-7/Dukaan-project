@@ -7,7 +7,8 @@ import questionMark from "../assets/questionMark.svg"
 const Navbar = () => {
   return (
     <div
-      className={`flex md:flex-row flex-col-reverse mb-[35px] pt-[10px] mr-4`}
+    style={{borderBottom: "1px solid #D9D9D9"}}
+      className={`flex md:flex-row flex-col-reverse pt-[10px] pl-5 pr-4 pb-3`}
     >
         <div className='w-1/3 flex flex-row items-center'>
             <div className='flex flex-row mr-3 text-[#1A181E] font-semibold'>Payments</div>
@@ -20,7 +21,7 @@ const Navbar = () => {
             <div className='flex flex-row text-[#4D4D4D]'>How it works</div>
             </div>
         </div>
-      <div className='w-1/3 lg:flex-1 flex flex-row max-w-[458px] py-2 pl-4 pr-2 h-[52px] bg-[#F2F2F2] ml-[10px] w-1/3'>
+      <div className='w-1/3 lg:flex-1 flex flex-row max-w-[458px] py-2 pl-4 pr-2 h-[52px] bg-[#F2F2F2] ml-[10px] w-1/3 rounded'>
         <div className='w-[72px] h-full flex justify-center items-center cursor-pointer'>
           <img
             src={search}
